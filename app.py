@@ -124,7 +124,7 @@ def save_qualifying_loans(qualifying_loans):
     if save_csv_file == "y":
         csvpath = raw_input("Enter the path to CSV file ? ").lower()
         save_csv(csvpath,qualiying_loans)
-    else
+    else:
         print("Not saving to csv")
     
     
